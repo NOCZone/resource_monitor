@@ -1,6 +1,6 @@
-resource_monitor
-================
-*version 1.5*
+Resource Monitor for http://noczone.com
+=======================================
+*version 1.5.2*
 -------------
 
 Resource monitor client for NOC Zone services

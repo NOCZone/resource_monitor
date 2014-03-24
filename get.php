@@ -20,7 +20,7 @@ function autoloader($mod)
 
 spl_autoload_register('autoloader');
 /////////////////////////////////////
-$data = config::noczone_decrypt($_POST["data"]);
+$data = encryption::noczone_decrypt($_POST["data"]);
 if ($data === false) {
     exit;
 } // if wrong decryption exit !
