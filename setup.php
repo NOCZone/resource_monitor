@@ -13,7 +13,7 @@
  * sudo service apache2 restart
  * 
  */
-include 'config_template.php';
+include 'config.php';
 include 'encryption.php';
 
 $cuUrl = getCurrentURL(); // to get the current url of this script
