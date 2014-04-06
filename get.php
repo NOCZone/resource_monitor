@@ -9,7 +9,7 @@
  * URL to this file, and the Servers Secure Key
  * 
  */
-include 'config_template.php';
+include 'config.php';
 include 'encryption.php';
 // Auto Loader
 function autoloader($mod)
